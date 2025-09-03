@@ -34,8 +34,6 @@ mongoose.connect(MONGODB_URI, {
   serverSelectionTimeoutMS: 30000,
   connectTimeoutMS: 30000,
   socketTimeoutMS: 30000,
-  bufferMaxEntries: 0,
-  bufferCommands: false,
 })
   .then(() => {
     console.log('MongoDB connected successfully');
